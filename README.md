@@ -17,7 +17,7 @@
 
 #### Resultados y conclusiones 
 
-Una vez completados los pasos anteriores se deberá ver una ventana que cada segundo se estará actualizando, como se ve en <a href="https://github.com/AlexF-F/Flow1/blob/main/image/Flow1.jpeg">imagen</a>.
+Una vez completados los pasos anteriores se deberá ver una ventana que cada segundo se estará actualizando, como se ve en <a href="https://github.com/AlexF-F/Flow2/blob/main/image/Flow1.jpeg">imagen</a>.
 
 #### Video representativo
 Puedes encontrar el video explicativo en el siguiente enlace: <a href="https://drive.google.com/file/d/1qQI0pxKeBuMdxUXScRPGFZgP1qCscPbx/view?usp=sharing">Video</a>.
