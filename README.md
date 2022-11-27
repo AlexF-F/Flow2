@@ -1,8 +1,8 @@
 <p align="center"><img src="https://i.imgur.com/A6bWGFl.gif"/></p>
 
-<h1 align="center">Primer Flow </h1>
+<h1 align="center">Segundo Flow </h1>
 
-<h4> Este repositorio contiene el sprimer ejercicio en Node Red,El flow 1 representa el primer ejercicio a realizar con NodeRed. Este ejercicio consiste únicamente en conectar un nodo Inject con un nodo Debug y automatizarlo para que genere un TimeStamp cada 1 segundo. Esta acción permite demostrar el uso de la pestaña Debug. </h4> 
+<h4> Este repositorio contiene el sprimer ejercicio en Node Red,El flow 2 representa el segundo ejercicio a realizar con NodeRed. Este ejercicio consiste únicamente en conectar un nodo Inject con un nodo Debug y automatizarlo para que genere un TimeStamp cada 1 segundo. Esta acción permite demostrar el uso de la pestaña Debug. </h4> 
 
 
 ### CONTENIDO
