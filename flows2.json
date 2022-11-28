@@ -1,0 +1,74 @@
+[
+    {
+        "id": "8d4af54a943062cc",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fad0e260ebf2af12",
+        "type": "inject",
+        "z": "8d4af54a943062cc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "c0cb51fbc09ba435"
+            ]
+        ]
+    },
+    {
+        "id": "bb0f0381ef671ffc",
+        "type": "debug",
+        "z": "8d4af54a943062cc",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c0cb51fbc09ba435",
+        "type": "function",
+        "z": "8d4af54a943062cc",
+        "name": "function 1",
+        "func": "var date = new Date(msg.payload);\nmsg.payload = date.toString();\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 60,
+        "wires": [
+            [
+                "bb0f0381ef671ffc"
+            ]
+        ]
+    }
+]
